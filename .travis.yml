@@ -1,0 +1,6 @@
+dist: trusty # репозиторий внутри travis
+jdk: oraclejdk11
+language: java
+services:
+  - postgresql
+  - docker
