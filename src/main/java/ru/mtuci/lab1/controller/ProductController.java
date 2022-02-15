@@ -12,7 +12,7 @@ import java.util.List;
 
 @Slf4j
 @RestController
-@RequestMapping(value = ProductController.REST_URL, produces = MediaType.APPLICATION_JSON_VALUE)
+@RequestMapping(value = ProductController.REST_URL, produces = MediaType.APPLICATION_JSON_VALUE + "; charset=utf-8")
 public class ProductController {
     public static final String REST_URL = "/api/v1/products";
 
